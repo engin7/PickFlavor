@@ -9,7 +9,7 @@
         <!--Choose Your Flavor-->
         <scene sceneID="B30-iQ-vu8">
             <objects>
-                <viewController storyboardIdentifier="PickFlavorViewController" id="UVM-0Q-4W9" customClass="PickFlavorViewController" customModule="RWPickFlavor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PickFlavorViewController" id="UVM-0Q-4W9" customClass="PickFlavorViewController" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sRg-If-22K"/>
                         <viewControllerLayoutGuide type="bottom" id="MIH-OU-SkA"/>
@@ -33,7 +33,7 @@
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eSO-Nb-JhM" customClass="IceCreamView" customModule="RWPickFlavor" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eSO-Nb-JhM" customClass="IceCreamView" customModuleProvider="target">
                                         <rect key="frame" x="72.5" y="40" width="223" height="446"/>
                                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
@@ -148,7 +148,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I2s-P7-l5b" sceneMemberID="firstResponder"/>
-                <customObject id="4S9-bY-Srf" customClass="PickFlavorDataSource" customModule="RWPickFlavor" customModuleProvider="target">
+                <customObject id="4S9-bY-Srf" customClass="PickFlavorDataSource" customModuleProvider="target">
                     <connections>
                         <outlet property="collectionView" destination="zft-ym-2ni" id="4Nw-1k-4ef"/>
                     </connections>
