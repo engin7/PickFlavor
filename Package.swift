@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "PickFlavor",
+    defaultLocalization: "en",
     platforms: [
             .iOS(.v15),
             ],
