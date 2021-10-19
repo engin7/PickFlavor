@@ -141,7 +141,7 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Choose Your Flavor" id="s0K-Qv-2Qg"/>
                     <connections>
-                        <outlet property="collectionView" destination="zft-ym-2ni" id="tcB-zS-cg6"/>
+                        <outlet property="collectionView" destination="zft-ym-2ni" id="8jP-0o-3GT"/>
                         <outlet property="contentView" destination="HDe-ty-26z" id="W6h-C5-R5I"/>
                         <outlet property="iceCreamView" destination="eSO-Nb-JhM" id="Eve-ba-74N"/>
                         <outlet property="label" destination="rzX-YL-Uxg" id="q4K-7O-HsO"/>
