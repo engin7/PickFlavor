@@ -125,7 +125,7 @@ extension PickFlavorViewController: UICollectionViewDelegate {
 public extension UIViewController{
        
        public static func getStoryboardVC() -> UIViewController {
-           let storyboard = UIStoryboard(name: String(describing: self), bundle: Bundle.module) // Use Bundle.module
+           let storyboard = UIStoryboard(name: "Main", bundle: Bundle.module) // Use Bundle.module
            return storyboard.instantiateInitialViewController()!
        }
 }
