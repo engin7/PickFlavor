@@ -121,11 +121,4 @@ extension PickFlavorViewController: UICollectionViewDelegate {
     updateWithFlavor(flavor)
   }
 }
-
-public extension UIViewController{
-       
-       public static func getStoryboardVC() -> UIViewController {
-           let storyboard = UIStoryboard(name: "Main", bundle: Bundle.module) // Use Bundle.module
-           return storyboard.instantiateInitialViewController()!
-       }
-}
+ 
